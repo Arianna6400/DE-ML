@@ -54,7 +54,15 @@ The second Jupyter Notebook could be found here: [Activity 2](https://github.com
 
 ### 3. Artificial Neurons
 
-*TO BE CONTINUED...*
+Over the course of this activity, the focus is on exploring the fundamentals of artificial neurons, also known as **Perceptrons**, which are essential components of neural networks and deep learning. The activity covers the theory of perceptron learning and applies it to a dataset that can be linearly separated. In particular, an **Adaline** perceptron algorithm will be used, which is a perceptron that is trained with a gradient descent algorithm.
+
+This first Jupyter Notebook could be found here: [Activity 3.1](https://github.com/Arianna6400/DE-ML/blob/master/Activity3/Etivity3_Adaline.ipynb)
+
+Additionally, the implementation of a perceptron using gradient descent in scikit-learn is examined and compared with the Perceptron learning rule. The activity also involves working with datasets using the Pandas library and further exploring the scikit-learn library.
+
+The second Jupyter Notebook could be found here: [Activity 3.2](https://github.com/Arianna6400/DE-ML/blob/master/Activity2/Etivity3_ScikitLearn.ipynb)
+
+Through this task, foundational concepts of machine learning, such as weights, epochs, and learning rates, are introduced and explored, providing a solid base for understanding more advanced neural network models.
 
 ### 4. Logistics Regression and SVMs 
 
