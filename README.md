@@ -77,7 +77,7 @@ The second section demonstrates a non-linear SVM with a *radial basis function* 
 - **Part 3: Network Intrusion Detection with SVM**
 The final section explores SVM’s application in **Network Intrusion Detection**, classifying network traffic as either normal or malicious. Using an intrusion detection dataset, the data is preprocessed and scaled, and both linear and non-linear SVM models are trained. Performance is assessed with metrics tailored for imbalanced data, providing insights into the SVM’s effectiveness in identifying intrusions and demonstrating its relevance in cybersecurity.
 
-The Jupyter Notebook could be found here: [Activity 4](https://github.com/Arianna6400/DE-ML/blob/master/Activity4/Etivity3_SVM.ipynb)
+The Jupyter Notebook could be found here: [Activity 4](https://github.com/Arianna6400/DE-ML/blob/master/Activity4/Etivity4_SVM.ipynb)
 
 ### 5. Data Processing
 
