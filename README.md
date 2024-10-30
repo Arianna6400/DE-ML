@@ -69,13 +69,16 @@ Through this task, foundational concepts of machine learning, such as weights, e
 This notebook investigates the use of *Support Vector Machines* (**SVM**) in both classical and applied classification contexts, demonstrating SVM’s versatility across three sections.
 
 - **Part 1: Linear SVM on the Iris Dataset**
-The first section applies a linear SVM model to classify the three species in the **Iris dataset** (*Iris-setosa*, *Iris-versicolor*, and *Iris-virginica*) based on petal length and width features. Data preprocessing includes scaling and splitting into training and test sets to optimize the model's performance. The linear SVM model is trained, and its accuracy is evaluated using a confusion matrix and classification report. The decision boundary is visualized to illustrate the linear model’s effectiveness in separating the classes.
+
+    The first section applies a linear SVM model to classify the three species in the **Iris dataset** (*Iris-setosa*, *Iris-versicolor*, and *Iris-virginica*) based on petal length and width features. Data preprocessing includes scaling and splitting into training and test sets to optimize the model's performance. The linear SVM model is trained, and its accuracy is evaluated using a confusion matrix and classification report. The decision boundary is visualized to illustrate the linear model’s effectiveness in separating the classes.
 
 - **Part 2: Non-Linear SVM on a Randomly Generated Dataset**
-The second section demonstrates a non-linear SVM with a *radial basis function* (**RBF**) kernel on a randomly generated dataset. This section investigates how the non-linear SVM model captures complex, non-linear boundaries, showcasing its adaptability to data that is not linearly separable. The decision boundaries for this synthetic data are visualized to highlight the differences between linear and non-linear classification approaches.
+
+    The second section demonstrates a non-linear SVM with a *radial basis function* (**RBF**) kernel on a randomly generated dataset. This section investigates how the non-linear SVM model captures complex, non-linear boundaries, showcasing its adaptability to data that is not linearly separable. The decision boundaries for this synthetic data are visualized to highlight the differences between linear and non-linear classification approaches.
 
 - **Part 3: Network Intrusion Detection with SVM**
-The final section explores SVM’s application in **Network Intrusion Detection**, classifying network traffic as either normal or malicious. Using an intrusion detection dataset, the data is preprocessed and scaled, and both linear and non-linear SVM models are trained. Performance is assessed with metrics tailored for imbalanced data, providing insights into the SVM’s effectiveness in identifying intrusions and demonstrating its relevance in cybersecurity.
+
+    The final section explores SVM’s application in **Network Intrusion Detection**, classifying network traffic as either normal or malicious. Using an intrusion detection dataset, the data is preprocessed and scaled, and both linear and non-linear SVM models are trained. Performance is assessed with metrics tailored for imbalanced data, providing insights into the SVM’s effectiveness in identifying intrusions and demonstrating its relevance in cybersecurity.
 
 The Jupyter Notebook could be found here: [Activity 4](https://github.com/Arianna6400/DE-ML/blob/master/Activity4/Etivity4_SVM.ipynb)
 
