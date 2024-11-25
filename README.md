@@ -102,7 +102,7 @@ The tasks are structured to provide a comprehensive journey through different de
 
 - **Dataset Overview and Visualization**
 
-The Fashion-MNIST dataset is loaded and preprocessed for the experiments. Each image, represented as a $28x28$ grayscale pixel array, is flattened into a $784$-dimensional vector for input into the neural networks. An initial visualization showcases sample images alongside their respective labels, providing a tangible sense of the dataset's structure and variety. Data is then split into training and testing sets, followed by standardization to improve optimization performance during training.
+  The Fashion-MNIST dataset is loaded and preprocessed for the experiments. Each image, represented as a $28x28$ grayscale pixel array, is flattened into a $784$-dimensional vector for input into the neural networks. An initial visualization showcases sample images alongside their respective labels, providing a tangible sense of the dataset's structure and variety. Data is then split into training and testing sets, followed by standardization to improve optimization performance during training.
 
 - **Task 1: Training a Perceptron**
 
