@@ -123,6 +123,7 @@ The tasks are structured to provide a comprehensive journey through different de
   The comparative analysis demonstrates the efficiency of deeper architectures, particularly in terms of memory and computational cost. The discussion also underscores the advantages of depth in generalization over wide architectures that may overfit or underperform on complex datasets.
 
 - **Task 4: Evaluating Model Performance**
+
   A confusion matrix is generated for the best-performing MLP architecture, offering detailed insights into category-wise predictions. Misclassifications are analyzed to identify patterns and weaknesses in the model's learning. For example, categories with visual similarities, such as shirts and pullovers, exhibit higher confusion rates.
 
 The Jupyter Notebook could be found here: [Activity 6](https://github.com/Arianna6400/DE-ML/blob/master/Activity6/Etivity6.ipynb)
