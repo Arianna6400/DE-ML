@@ -84,11 +84,48 @@ The Jupyter Notebook could be found here: [Activity 4](https://github.com/Ariann
 
 ### 5. Data Processing
 
-*TO BE CONTINUED..*
+This Jupyter notebook provides a comprehensive exploration of feature selection and dimensionality reduction techniques applied to a classification problem. The tasks include analyzing the dataset, selecting important features, and training an **SVM** classifier. The notebook also investigates the role of **PCA** and **Recursive Feature Elimination** (**RFE**) in improving model performance. Throughout the notebook, *Support Vector Machines* are used as the classifier of choice. Their robustness and interpretability make them ideal for assessing the impact of feature selection and dimensionality reduction. Key metrics, such as **accuracy** and **confusion matrices**, are used to evaluate model performance, and visualizations illustrate decision boundaries and feature importance.
+
+The first task focuses on feature selection, a critical preprocessing step for machine learning. By carefully analyzing the dataset, various techniques are employed to identify the most relevant features for classification. The notebook begins with exploratory data analysis, visualizing distributions and gaining insights into the dataset's structure. From there, methods such as *variance thresholding* and *univariate feature selection* (`f_classif`) are used to rank features and evaluate their importance. This approach ensures that the dataset is both interpretable and efficient for downstream tasks.
+
+In the second task, the notebook explores dimensionality reduction using *Principal Component Analysis* (**PCA**). PCA is applied to project the data into a lower-dimensional space while retaining the variance necessary for accurate predictions. This section includes visualizations that explain how much variance is preserved with each principal component, providing a clear picture of the trade-off between dimensionality and information retention. A *Support Vector Machine* (**SVM**) is then trained on the PCA-transformed data, showcasing how dimensionality reduction can simplify models without compromising accuracy.
+
+The final task introduces *Recursive Feature Elimination* (**RFE**) as a systematic method to identify the most critical features. By iteratively removing the least important features and retraining the model, RFE highlights how feature selection can enhance model performance. The notebook provides detailed analyses and comparisons, examining how the number of features impacts classification results.
+
+The Jupyter Notebook could be found here: [Activity 5](https://github.com/Arianna6400/DE-ML/blob/master/Activity5/Etivity5.ipynb)
 
 ### 6. Neural Networks
 
-*TO BE CONTINUED..*
+This notebook digs into the use of *Perceptrons* and *Multi-Layer Perceptrons* (**MLPs**) to classify the **Fashion-MNIST** dataset. Fashion-MNIST is a dataset of $70,000$ grayscale images, each belonging to one of ten clothing categories such as T-shirts, trousers, and dresses. The aim is to explore various neural network architectures, analyze their performance, and gain insights into training behaviors, overfitting, and generalization.
+
+The tasks are structured to provide a comprehensive journey through different depths and widths of neural networks. Starting from a basic Perceptron, the notebook progressively builds up to deeper and more complex networks, analyzing how each architecture impacts classification accuracy and computational efficiency.
+
+- **Dataset Overview and Visualization**
+
+The Fashion-MNIST dataset is loaded and preprocessed for the experiments. Each image, represented as a $28x28$ grayscale pixel array, is flattened into a $784$-dimensional vector for input into the neural networks. An initial visualization showcases sample images alongside their respective labels, providing a tangible sense of the dataset's structure and variety. Data is then split into training and testing sets, followed by standardization to improve optimization performance during training.
+
+- **Task 1: Training a Perceptron**
+
+  The notebook begins by implementing a simple Perceptron, a linear classifier, to classify the Fashion-MNIST dataset. Despite being a basic model, the Perceptron achieves an accuracy of approximately $81.66\%$, which, while promising, highlights its limitations in capturing the complexities of the dataset.
+
+  An analysis of misclassified samples reveals the challenges in distinguishing similar categories, such as shirts and pullovers. These observations provide a foundation for transitioning to more sophisticated models.
+
+- **Task 2: Single-Layer Multi-Layer Perceptrons (MLPs)**
+
+  Building on the Perceptron, an MLP with a single hidden layer containing $20$ neurons is trained. This architecture allows the model to learn non-linear relationships, achieving higher accuracy than the Perceptron. By examining training and testing accuracies, overfitting is identified as a potential issue, emphasizing the need for careful regularization and architectural tuning.
+
+  To better understand the impact of hidden layer width, experiments are conducted with varying neuron counts. Results indicate diminishing returns in accuracy as the number of neurons increases, with a sweet spot around $50$ neurons. This finding highlights the importance of balancing model complexity with generalization ability.
+
+- **Task 3: Exploring Deeper Networks**
+
+  The notebook transitions to experimenting with deeper network architectures, stacking multiple hidden layers with different configurations. Depth introduces hierarchical feature extraction, enabling the model to better capture intricate patterns in the data. For instance, a network with three hidden layers ($100, 100, 50$ neurons) achieves comparable performance to a very wide single-layer network, but with significantly fewer parameters.
+
+  The comparative analysis demonstrates the efficiency of deeper architectures, particularly in terms of memory and computational cost. The discussion also underscores the advantages of depth in generalization over wide architectures that may overfit or underperform on complex datasets.
+
+- **Task 4: Evaluating Model Performance**
+  A confusion matrix is generated for the best-performing MLP architecture, offering detailed insights into category-wise predictions. Misclassifications are analyzed to identify patterns and weaknesses in the model's learning. For example, categories with visual similarities, such as shirts and pullovers, exhibit higher confusion rates.
+
+The Jupyter Notebook could be found here: [Activity 6](https://github.com/Arianna6400/DE-ML/blob/master/Activity6/Etivity6.ipynb)
 
 ## 👥 Contribution
 
